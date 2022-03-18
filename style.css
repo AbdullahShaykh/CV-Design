@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    padding: 0rem 0rem;
+}
+.left{
+    width: 20%;
+    height: 1700px;
+    background-color: #003049;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dp{
+    text-align: center;
+    line-height: 2;
+    color: white;
+    padding: 2rem 0rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 60%;
+    height: 305px;
+}
+.dp img{
+    width: 222px;
+    border-radius: 100%;
+}
+.contact{
+    color: white;
+    line-height: 2.2;
+    padding: 2rem;
+}
+.contact p i{
+    margin-right: 15px;
+    color: rgb(146, 224, 255);
+}
+.edu{
+    color: white;
+    line-height: 2;
+    
+}
+/* .edu p{
+    font-size: smaller;
+} */
+.edu span{
+    color: rgb(146, 224, 255);
+}
+.lang{
+    text-align: left;
+    padding: 2rem;
+    color: white;
+    line-height: 2;
+    position: relative;
+    right: 50px;
+}
+.lang i{
+    color: rgb(146, 224, 255);
+}
+.right{
+    width: 80%;
+    background-color: rgb(223, 223, 223);
+    color: rgb(68, 68, 68);
+}
+.right h1,h2{
+    color: rgb(236, 77, 37);
+    font-family: 'Montserrat', sans-serif;
+}
+.prof{
+    padding: 3rem;
+}
+
+.prof p{
+    line-height: 2;
+    margin-top: 1.5rem;
+}
+.exp{
+    padding: 3rem;
+    
+}
+.exp h1{
+    margin-bottom: 1rem;
+}
+.one,.two,.three{
+    display: flex;
+    line-height: 2;
+    padding: 1rem 0rem;
+}
+.left1,.left2,.left3{
+    
+    width: 15%;
+    
+}
+.right1,.right2,.right3{
+    
+    width: 45%;
+    
+}
+.skills,.hob{
+    padding: 3rem;
+    line-height: 3;
+}
+.hob span{
+    margin-right: 4rem;
+}
+.hob i,.skills i{
+    color: rgb(0, 183, 255);
+}
+
+@media only screen and (max-width: 1500px) {
+   
+   .left{
+       width: 30%;
+       height: 2100px;
+   }
+  }
+  @media only screen and (max-width: 1150px) {
+   
+    .left{
+        width: 40%;
+        height: 2400px;
+    }
+   }
+   @media only screen and (max-width: 900px) {
+   
+    .left{
+        width: 50%;
+        height: 2700px;
+    }
+   }
+   @media only screen and (max-width: 800px) {
+   
+    .container{
+        flex-direction: column;
+
+    }
+    .left{
+        width: 100%;
+        font-size: larger;
+        height: 1300px;
+
+    }
+    .right{
+        width: 100%;
+    }
+    .left1,.left2,.left3{
+    
+        width: 35%;
+        
+    }
+    .right1,.right2,.right3{
+    
+        width: 65%;
+        
+    }
+    .hob span{
+
+        line-height: 3;
+    }
+   }
